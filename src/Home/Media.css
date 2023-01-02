@@ -1,0 +1,41 @@
+@media screen and (max-width:768px){
+    .home{
+        padding-top: 100px;
+    }
+    .hi{
+        font-size:36px;
+    }
+    .name{
+        font-size: 30px;
+    }
+    .name span{
+        font-size: 36px;
+    }
+    .profession{
+        font-size: 36px;
+        margin-bottom: 70px;
+    }
+}
+@media screen and (max-width:440px){
+    .contact{
+        font-size: 18px;
+        padding: 5px 10px;
+        width: 180px;
+    }
+    .home{
+        padding-top: 180px;
+    }
+    .hi{
+        font-size:28px;
+    }
+    .name{
+        font-size: 16px;
+    }
+    .name span{
+        font-size: 28px;
+    }
+    .profession{
+        font-size: 28px;
+        margin-bottom: 50px;
+    }
+}

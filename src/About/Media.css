@@ -1,0 +1,29 @@
+@media screen and (max-width:768px){
+    .about{
+        padding-top: 100px;
+    }
+    .about_title {
+        font-size: 36px;
+    }
+    .about_title span {
+        font-size: 36px;
+    }
+    .about_info{
+        font-size: 16px;
+    }
+    
+}
+@media screen and (max-width:475px){
+    .about {
+        padding:0 80px 0 80px;
+    }
+    .about_title {
+        font-size: 28px;
+    }
+    .about_title span {
+        font-size: 26px;
+    }
+    .about_info{
+        font-size: 16px;
+    }
+}

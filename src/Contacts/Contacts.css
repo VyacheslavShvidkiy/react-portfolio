@@ -1,0 +1,56 @@
+.contacts{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10% 120px;
+    height: 100%;
+    font-family: 'Seymour One', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.contacts_title{
+    font-size: 48px;
+    color: transparent;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.contacts_title span{
+    color: #F34A4A;
+    font-size: 60px;
+}
+.contacts_title span:hover{
+    display: inline-block;
+    animation: bounce infinite 1.5s alternate;
+}
+@keyframes bounce {
+    0%,100%{ transform:translate(0); }
+    25%{ transform:rotateX(0deg) translateY(2px) rotate(-1deg) scale(0.8); }
+    50%{ transform:translateY(0px) rotate(1deg) scale(1.1);  }
+}
+.contacts_form_title{
+    position: relative;
+}
+.mail{
+    margin-top: 60px;
+    display: block;
+    font-size: 24px;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+.mail_bg{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 20%;
+    height: 100%;
+    background-color: #F34A4A;
+    z-index: -1;
+    transition: .3s all linear;
+    border-radius: 0 50% 50% 0;
+}
+.mail:hover .mail_bg{
+    width: 100%;
+}

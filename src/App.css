@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Seymour+One&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+a{
+  text-decoration: none;
+}
+ul, ol{
+  list-style-type: none;
+}
+.App{
+  position: relative;
+  background-color: rgb(38, 48, 52, 0.95); 
+  min-height: 100vh;
+}
+.decoration_h::before{
+  position: absolute;
+  content: '<h2>';
+  top: -10px;
+  left: -30px;
+  font-size: 28px;
+  font-style: italic;
+  font-weight: normal;
+  font-family:'Times New Roman', Times, cursive;
+  color: #515152;
+}
+.decoration_h::after{
+  position: absolute;
+  content: '</h2>';
+  bottom: -20px;
+  left: -30px;
+  font-size: 28px;
+  font-style: italic;
+  font-weight: normal;
+  font-family:'Times New Roman', Times, cursive;
+  color: #515152;
+}
+.decoration_p::before{
+  position: absolute;
+  content: '</p>';
+  top: -30px;
+  left: -30px;
+  font-size: 28px;
+  font-style: italic;
+  font-weight: normal;
+  font-family:'Times New Roman', Times, cursive;
+  color: #515152;
+}
+.decoration_p_t::before{
+  position: absolute;
+  content: '<p>';
+  top: -30px;
+  left: -30px;
+  font-size: 28px;
+  font-style: italic;
+  font-weight: normal;
+  font-family:'Times New Roman', Times, cursive;
+  color: #515152;
+}
+.decoration_p::after{
+  position: absolute;
+  content: '</p>';
+  bottom: -30px;
+  left: -30px;
+  font-size: 28px;
+  font-style: italic;
+  font-weight: normal;
+  font-family:'Times New Roman', Times, cursive;
+  color: #515152;
+}
+.decoration_p_b::after{
+  position: absolute;
+  content: '</p>';
+  bottom: -30px;
+  left: -30px;
+  font-size: 28px;
+  font-style: italic;
+  font-weight: normal;
+  font-family:'Times New Roman', Times, cursive;
+  color: #515152;
+}
+.decoration_H-t::before{
+  position: absolute;
+  content: '<h1>';
+  top: -30px;
+  left: -30px;
+  font-size: 28px;
+  font-style: italic;
+  font-weight: normal;
+  font-family:'Times New Roman', Times, cursive;
+  color: #515152;
+}
+.decoration_H_b::after{
+  position: absolute;
+  content: '</h1>';
+  bottom: -30px;
+  left: -30px;
+  font-size: 28px;
+  font-style: italic;
+  font-weight: normal;
+  font-family:'Times New Roman', Times, cursive;
+  color: #515152;
+}
+.decoration_a::before{
+  position: absolute;
+  content: '<a href="">';
+  top: -30px;
+  left: -30px;
+  font-size: 28px;
+  font-style: italic;
+  font-weight: normal;
+  font-family:'Times New Roman', Times, cursive;
+  color: #515152;
+}
+.decoration_a::after{
+  position: absolute;
+  content: '</a>';
+  bottom: -30px;
+  left: -30px;
+  font-size: 28px;
+  font-style: italic;
+  font-weight: normal;
+  font-family:'Times New Roman', Times, cursive;
+  color: #515152;
+}

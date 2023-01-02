@@ -1,0 +1,68 @@
+.home{
+    text-align: left;
+    padding-left: 90px;
+    padding-right: 10%;
+    padding-top: 10%;
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 100%;
+    font-family: 'Seymour One', sans-serif;
+}
+.hi{
+    font-size:60px;
+    color: #fff;
+    position: relative;
+}
+.name{
+    font-size: 48px;
+    color: #fff;
+}
+.name span{
+    -webkit-text-stroke: 0px;
+}
+.name span:hover{
+    display: inline-block;
+    animation: bounce infinite 1s alternate;
+}
+@keyframes bounce {
+    0%,100%{ transform:translate(0); }
+    25%{ transform:rotateX(0deg) translateY(2px) rotate(-1deg) scale(0.8); }
+    50%{ transform:translateY(0px) rotate(1deg) scale(1.1);  }
+}
+.name span{
+    color: #F34A4A;
+    font-size: 60px;
+}
+.profession{
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 100px;
+    position: relative;
+}
+.contact{
+    font-size: 24px;
+    padding: 10px 25px;
+    transition: .3s all linear;
+    outline: 1px solid #F34A4A;
+    display: block;
+    max-width: 300px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+.contact_block{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #F34A4A;
+    transition: .3s all;
+    z-index: -1;
+}
+.contact:hover .contact_block{
+    width: 100%;
+}
+
+

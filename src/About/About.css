@@ -1,0 +1,32 @@
+.about {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10% 100px;
+    height: 100%;
+    font-family: 'Seymour One', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about_title {
+    font-size: 48px;
+    color: transparent;
+    margin-bottom: 50px;
+    position: relative;
+}
+.about_info{
+    position: relative;
+}
+.about_title span {
+    color: #F34A4A;
+    font-size: 60px;
+}
+.about_title span:hover {
+    display: inline-block;
+    animation: bounce infinite 1.5s alternate;
+}
+@keyframes bounce {
+    0%,100%{ transform:translate(0); }
+    25%{ transform:rotateX(0deg) translateY(2px) rotate(-1deg) scale(0.8); }
+    50%{ transform:translateY(0px) rotate(1deg) scale(1.1);  }
+}
